@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age level</title>
+</head>
+<body>
+   
+    <input type="text" placeholder="Enter your age" id="age" style="margin: auto;"><br>
+    <button onclick="shu()"  style="background: grey;">Enter</button>
+
+
+
+
+
+    <script>
+        function shu() {
+            var input=document.getElementById("age").value;
+            if (input>=60) {
+                alert("you are very old");
+            }
+            else if(input>=45){
+                alert("you are old");
+            }
+            else if(input>=30){
+                alert("you are young");
+            }
+            else if(input>=18){
+
+            
+                alert("you are very young" + '      ' + "girlfriend or boyfriend  koita");
+            }
+            else if(input>=10){
+                alert("you are child");
+            }
+            else if(input>=0){
+                alert("you are baby");
+            }
+            
+            
+            
+        }
+    </script>
+</body> 
+</html>
