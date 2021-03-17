@@ -8,10 +8,12 @@
 </head>
 <body>
    
-    <input type="text" placeholder="Enter your age" id="age" style="margin: auto;"><br>
-    <button onclick="shu()"  style="background: grey;">Enter</button>
+   <div style="margin-left: 90px;">
+   <p> <input type="text" placeholder="Enter your age" id="age" style="margin: auto;">
+    <button onclick="shu()"  style="background: red; ">Enter</button>
 
-
+</p>
+</div>
 
 
 
@@ -19,24 +21,24 @@
         function shu() {
             var input=document.getElementById("age").value;
             if (input>=60) {
-                alert("you are very old");
+                document.write("you are very old");
             }
             else if(input>=45){
-                alert("you are old");
+                document.write("you are old");
             }
             else if(input>=30){
-                alert("you are young");
+                document.write("you are young");
             }
             else if(input>=18){
 
             
-                alert("you are very young" + '      ' + "girlfriend or boyfriend  koita");
+                document.write("you are very young" + '      ' + "girlfriend or boyfriend  koita");
             }
             else if(input>=10){
-                alert("you are child");
+                document.write("you are child");
             }
             else if(input>=0){
-                alert("you are baby");
+                document.write("you are baby");
             }
             
             
